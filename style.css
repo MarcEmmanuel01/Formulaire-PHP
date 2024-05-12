@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* Bleu clair */
+}
+
+h2 {
+    color: #333; /* Couleur de texte sombre */
+}
+
+form {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff; /* Fond blanc pour le formulaire */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombre légère */
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="tel"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc; /* Bordure grise */
+    border-radius: 5px;
+    box-sizing: border-box; /* La taille de la boîte inclut les bordures et les rembourrages */
+}
+
+input[type="file"] {
+    margin-top: 5px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50; /* Vert */
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Animation de transition */
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049; /* Vert foncé au survol */
+}
+
+body {
+    background-color: #87ceeb; /* Bleu ciel */
+    font-family: Arial, sans-serif;
+}
+
+/* Le reste du CSS reste inchangé */
+img {
+    display: block;
+    margin: 0 auto; /* Centrer l'image */
+    margin-top: 40px; /* Marge en haut */
+    width: 200px; /* Largeur du logo */
+    height: auto; /* Hauteur automatique pour conserver les proportions */
+}
+
+h2 {
+    text-align: center; /* Centrer le texte */
+    font-size: 32px; /* Agrandir la taille du texte */
+    margin-top: 20px; /* Marge en haut */
+}
+/* Ajouter ce CSS à votre fichier style.css */
+
+input[type="submit"] {
+    display: block;
+    margin: 0 auto; /* Centrer le bouton */
+    width: 200px; /* Ajuster la largeur */
+    height: 40px; /* Ajuster la hauteur */
+    font-size: 16px; /* Ajuster la taille de la police */
+    background-color: #008CBA; /* Couleur de fond */
+    color: #fff; /* Couleur du texte */
+    border: none; /* Supprimer la bordure */
+    border-radius: 5px; /* Ajouter des coins arrondis */
+    cursor: pointer; /* Curseur de la souris */
+}
+
+input[type="submit"]:hover {
+    background-color: #005f75; /* Couleur de fond au survol */
+}
+
+
+h2 {
+    text-align: center; /* Centrer le texte */
+    font-size: 28px; /* Agrandir la taille du texte */
+    margin-top: 20px; /* Marge en haut */
+}
